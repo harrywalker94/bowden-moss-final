@@ -965,14 +965,19 @@ button {
 }
 
 .about-details-cs .about-details-cap h4 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     color: #000a2d;
     display: inline-block;
     position: relative;
-    border-bottom: 2px solid rgba(134, 138, 135, 1);
     text-align: center;
+}
+
+.about-details-cs span.divider {
+    width: 2px;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
 }
 
 
