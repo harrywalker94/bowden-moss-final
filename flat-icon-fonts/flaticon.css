@@ -5,8 +5,8 @@
 	
 	@font-face {
 	    font-family: "Flaticon";
-	    src: url("./flaticon.eot");
-	    src: url("./flaticon.eot?#iefix") format("embedded-opentype"), url("./flaticon.woff2") format("woff2"), url("./flaticon.woff") format("woff"), url("./flaticon.ttf") format("truetype"), url("./flaticon.svg#Flaticon") format("svg");
+	    src: url("../flat-icon-fonts/flaticon.eot");
+	    src: url("../flat-icon-fonts/flaticon.eot?#iefix") format("embedded-opentype"), url("../flat-icon-fonts/flaticon.woff2") format("woff2"), url("../flat-icon-fonts/flaticon.woff") format("woff"), url("../flat-icon-fonts/flaticon.ttf") format("truetype"), url("../flat-icon-fonts/flaticon.svg#Flaticon") format("svg");
 	    font-weight: normal;
 	    font-style: normal;
 	}
@@ -14,7 +14,7 @@
 	@media screen and (-webkit-min-device-pixel-ratio:0) {
 	    @font-face {
 	        font-family: "Flaticon";
-	        src: url("./flaticon.svg#Flaticon") format("svg");
+	        src: url("../flat-icon-fonts/flaticon.svg#Flaticon") format("svg");
 	    }
 	}
 	
