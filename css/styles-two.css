@@ -85,7 +85,7 @@ nav.fill ul li .nav-link:after {
     width: 0%;
     content: '.';
     color: transparent;
-    background: rgba(134, 138, 135);
+    background: #4a90c4;
     height: 2px;
 }
 
@@ -254,6 +254,22 @@ button {
     top: 1rem;
 }
 
+.phone-div a {
+    font-size: 1.2rem;
+    color: black;
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+}
+
+.phone-div a {
+    color: #4a90c4;
+}
+
+.phone-div span {
+    color: rgba(134, 138, 135);
+}
+
 @media (max-width: 768px) {
     .logo-div img {
         display: none;
@@ -286,10 +302,8 @@ button {
 .masthead-two {
     position: relative;
     width: 100%;
-    height: 100%;
-    min-height: 65vh;
-    padding: 3rem 0;
-    padding: 15rem 0;
+    height: 50vh;
+    min-height: 50vh;
     background: linear-gradient(to top, rgba(125, 130, 126, 0.8) 0%, rgba(125, 130, 126, 0.8) 100%), url("../assets/img/acton8.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -302,7 +316,7 @@ button {
     font-size: 4rem;
     background-color: #bec0be;
     padding: .5rem 4rem;
-    border: 4px solid #fff;
+    border: 2px solid #fff;
 }
 
 .masthead-three {
@@ -330,6 +344,41 @@ button {
 
 .header-btn-div {
     margin-top: 5rem;
+}
+
+.header-btn-div a {
+    font-size: 5rem;
+    color: #4a90c4;
+}
+
+.header-btn-div a:hover {
+    color: #ffffff;
+}
+
+.header-btn-div a i {
+    font-size: 2rem;
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
 }
 
 .header-btn-div .header-btn {
@@ -781,7 +830,7 @@ button {
 
 #portfolio {
     padding: 20px 0;
-    padding-bottom: 20rem;
+    padding-bottom: 6rem;
 }
 
 #portfolio #portfolio-flters {
@@ -807,8 +856,8 @@ button {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-    background-color: rgba(134, 138, 135, .3);
-    color: #000000;
+    background-color: #4a90c4;
+    color: #ffffff;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -878,8 +927,8 @@ button {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info hr {
-    border: solid 3px rgba(134, 138, 135, 1);
-    width: 50%;
+    border: solid 2px #4a90c4;
+    width: 25%;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
@@ -915,7 +964,7 @@ button {
 
 .cs-link span:hover {
     color: #ffffff;
-    background: rgba(134, 138, 135, 1);
+    background: #4a90c4;
     padding: 1rem;
 }
 
@@ -977,7 +1026,7 @@ button {
 .about-details-cs span.divider {
     width: 2px;
     height: 100%;
-    background: rgba(0, 0, 0, .3);
+    background: #4a90c4;
 }
 
 
@@ -5943,7 +5992,7 @@ hero-btn {
 /* line 29, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
 
 .categories-area .single-cat .cat-icon span {
-    color: rgba(134, 138, 135, .8);
+    color: #4a90c4;
     font-size: 65px;
     margin-bottom: 30px;
     display: block;
@@ -5952,9 +6001,10 @@ hero-btn {
 
 /* line 38, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
 
-.categories-area .single-cat .cat-cap h5>a {
+.categories-area .single-cat .cat-cap h5 {
     font-size: 24px;
     font-weight: 600;
+    color: rgba(134, 138, 135, .8);
     margin-bottom: 21px;
     display: block;
     -webkit-transition: all 0.2s ease-out 0s;
@@ -5966,7 +6016,7 @@ hero-btn {
 }
 
 .categories-area .single-cat .cat-cap hr {
-    border: solid 2px rgba(134, 138, 135, .8);
+    border: solid 2px #4a90c4;
     width: 60%;
     margin: 0 auto;
     margin-top: 2rem;
@@ -6125,7 +6175,7 @@ hero-btn {
 .count-down-area .single-counter {
     background-color: #bec0be;
     padding: 44px 10px 44px 9px;
-    border: 4px solid #ffffff;
+    border: 2px solid #ffffff;
     margin: 4px;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
 }
@@ -6172,7 +6222,7 @@ hero-btn {
 /* line 31, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_count_down.scss */
 
 .count-down-area .single-counter span {
-    color: #ffffff;
+    color: #4a90c4;
     font-size: 60px;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
@@ -6216,9 +6266,51 @@ hero-btn {
 
 /* line 11, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_services_section.scss */
 
+.services-area .single-services {
+    cursor: pointer;
+}
+
 .services-area .single-services .services-img img {
     width: 100%;
     padding: 1rem;
+    opacity: 1;
+    transition: all .2s ease;
+}
+
+.services-area .single-services .services-img:hover img {
+    opacity: .6;
+}
+
+.services-area .single-services .services-img .home-services-info {
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    opacity: 0;
+    transition: 0.2s linear;
+}
+
+.services-area .single-services .services-img:hover .home-services-info {
+    opacity: 1;
 }
 
 
@@ -6231,6 +6323,12 @@ hero-btn {
     padding: 33px 46px 16px 32px;
     margin-top: -50px;
     transition: all .3s ease;
+    cursor: pointer;
+    display: block;
+}
+
+.services-area .single-services:hover .services-caption {
+    width: 40%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6287,7 +6385,7 @@ hero-btn {
 }
 
 .services-area .single-services .cap-1 span:hover:after {
-    content: 'View Project';
+    content: 'See All';
     color: #ffffff;
 }
 
@@ -6563,6 +6661,10 @@ hero-btn {
     background: #ffffff;
 }
 
+.about-details .about-details-cap-div {
+    padding: 2rem;
+}
+
 .about-details .about-details-cap h4 {
     font-size: 30px;
     font-family: "Roboto", sans-serif;
@@ -6582,7 +6684,7 @@ hero-btn {
     content: "";
     width: 54px;
     height: 2px;
-    background: #bec0be;
+    background: #4a90c4;
     top: 0;
     left: 0px;
     top: 50%;
@@ -7092,8 +7194,8 @@ hero-btn {
 /* line 179, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
 
 .footer-area .footer-social a {
-    color: #bdbdbd;
-    font-size: 14px;
+    color: #4a90c4;
+    font-size: 25px;
     text-align: center;
     margin-left: 16px;
 }
@@ -9255,11 +9357,16 @@ hero-btn {
     margin-bottom: 30px;
 }
 
+.form-contact button {
+    margin-bottom: 30px;
+    border: 2px solid #4a90c4;
+}
+
 
 /* line 61, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_contact.scss */
 
 .form-contact .form-control {
-    border: 1px solid black;
+    border: 2px solid #4a90c4;
     border-radius: 0px;
     height: 48px;
     padding-left: 18px;
@@ -9355,7 +9462,7 @@ hero-btn {
 /* line 133, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_contact.scss */
 
 .contact-section {
-    padding: 130px 0 100px;
+    padding-top: 1rem;
 }
 
 @media (max-width: 991px) {
