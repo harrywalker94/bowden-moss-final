@@ -6300,12 +6300,12 @@ hero-btn {
 }
 
 .services-area .single-services .services-img:hover img {
-    opacity: .6;
+    opacity: .4;
 }
 
 .services-area .single-services .services-img .home-services-info {
     position: absolute;
-    top: -4rem;
+    top: -10rem;
     right: 0;
     bottom: 0;
     left: 0;
@@ -6335,6 +6335,9 @@ hero-btn {
     opacity: 1;
 }
 
+.services-area .single-services .services-img:hover .home-services-info h4, .services-area .single-services .services-img:hover .home-services-info p {
+    color: #000000;
+}
 
 /* line 15, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_services_section.scss */
 
@@ -6406,42 +6409,42 @@ hero-btn {
     color: #000;
 }
 
-.services-area .single-services .cap-1 span:hover:after {
+.services-area .single-services:hover .cap-1 span::after {
     content: 'See All';
-    color: #ffffff;
+    color: #000000;
 }
 
 .services-area .single-services .cap-2 span::after {
-    content: 'Leicester';
+    content: 'Camden';
     transition: all .3s ease;
     color: #000;
 }
 
-.services-area .single-services .cap-2 span:hover:after {
-    content: 'View Project';
-    color: #ffffff;
+.services-area .single-services:hover .cap-2 span::after {
+    content: 'See All';
+    color: #000000;
 }
 
 .services-area .single-services .cap-3 span::after {
+    content: 'Welwyn';
+    transition: all .3s ease;
+    color: #000;
+}
+
+.services-area .single-services:hover .cap-3 span::after {
+    content: 'See All';
+    color: #000000;
+}
+
+.services-area .single-services .cap-4 span::after {
     content: 'London';
     transition: all .3s ease;
     color: #000;
 }
 
-.services-area .single-services .cap-3 span:hover:after {
-    content: 'View Project';
-    color: #ffffff;
-}
-
-.services-area .single-services .cap-4 span::after {
-    content: 'Heathrow';
-    transition: all .3s ease;
-    color: #000;
-}
-
-.services-area .single-services .cap-4 span:hover:after {
-    content: 'View Project';
-    color: #ffffff;
+.services-area .single-services:hover .cap-4 span::after {
+    content: 'See All';
+    color: #000000;
 }
 
 .services-area .single-services .section-title-cs span {
